@@ -1,0 +1,85 @@
+body{
+    margin:0 px;
+    padding: 0 px;
+    background-image: linear-gradient(to right top, #d16ba5, #d389be, #d6a5d3, #dbc0e3, #e4d9ef, #dacfe9, #cfc6e4, #c4bddf, #9e92cb, #7968b6, #523fa0, #241689);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  h1{
+    text-align: center;
+    padding-top:8cqmax;
+    color: darkblue;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .sharing{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    position: relative;
+  }
+  .btn-f:hover{
+    background-image: url("facebook\ shadow.jpg") ;
+  }
+  .sharing a{
+    margin-right:40px;
+    border-radius:5px;
+    background-color: darkblue;
+    padding: 10px;
+    border: 1px solid;
+    
+  }
+  
+  .sharing a i{
+    font-size: 23px;
+    color :  white;
+  }
+   a:hover{
+    box-shadow : 10px 8px rgb(231, 228, 228) ;
+    background-color: white;
+    color :  darkblue;
+     
+  }
+  .sharing a i:hover{
+    color:darkblue;
+    
+  }
+  a{  
+      animation-name: floating;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-top: 5px;
+  }
+   
+  @keyframes floating{
+      0% { transform: translate(0,  0px); }
+      50%  { transform: translate(0, 15px); }
+      100%   { transform: translate(0, -0px); }    
+  }
+  
+  
+  
+  @media only screen and (max-width: 600px){
+    .sharing{
+    
+    height: 80px;
+    width: 100%;
+    position: relative;
+    padding: 15px;
+  }
+    
+    .sharing a i{
+    font-size: 20px;
+    }
+  }
+  
+  
